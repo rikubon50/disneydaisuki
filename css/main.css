@@ -1,0 +1,41 @@
+.top-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
+
+.top-subtitle, .top-caption{
+    margin-top: 10px;
+}
+
+.link-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style:none;
+}
+
+img {
+    max-width: 100%;  /* 横幅に合わせて自動縮小するが、拡大はしない */
+ }
+
+ .main-wrapper{
+    padding-left: 2%;
+    padding-right: 2%;
+ }
+ 
+#基本情報{
+    text-align:center;
+ }
+
+ .A{
+    display: flex;
+    justify-content: center;
+ }
+
+ .menu{
+    margin: 20px 30px;
+ }
+
+
