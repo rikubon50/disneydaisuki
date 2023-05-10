@@ -1,0 +1,167 @@
+.top-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+}
+
+.top-subtitle, .top-caption{
+    margin-top: 10px;
+}
+
+.link-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style:none;
+}
+
+img {
+    max-width: 100%;  /* 横幅に合わせて自動縮小するが、拡大はしない */
+ }
+
+ .main-wrapper{
+    padding-left: 2%;
+    padding-right: 2%;
+ }
+ 
+#基本情報{
+    text-align:center;
+ }
+
+ .A{
+    display: flex;
+    justify-content: center;
+ }
+
+ .menu{
+    margin: 20px 30px;
+ }
+
+ .menu li a{
+	background-color: #E0FFFF;
+	border: 1px solid #E0FFFF;
+}
+
+.menu li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 300px;
+	height: 60px;
+	color: #333;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 0.3s;
+	box-shadow: 10px 10px;
+}
+
+.menu li a:hover {
+	color: black;
+}
+
+.nemu li a::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: rotate(45deg) translateY(-50%);
+	width: 6px;
+	height: 6px;
+	border-width: 2px 2px 0 0;
+	border-style: solid;
+	border-color: #333;
+}
+
+.menu li a:hover {
+	background-color: #AFEEEE;
+	border: 1px solid #333;
+}
+
+.menu li a:hover::after {
+	border-color: #f2f2f2 #f2f2f2 transparent transparent;
+}
+
+.B{
+	background-image: url(../images/\ ディズニーロゴ.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color:rgba(255,255,255,0.5);
+	background-blend-mode:lighten;
+	background-position: center;
+}
+
+.container{
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: space-around;
+}
+
+.item {
+	background-color: #E0FFFF;
+	padding: 10px 10px;
+	border: solid #AFEEEE;
+	border-width: 1px;
+	height: auto;
+	width: 20%;
+	margin: 10px 0px;
+  }
+
+.item h3{
+	margin-top:auto;
+}
+
+.item:hover{
+	background-color: #AFEEEE;
+}
+
+table{
+	width: 100%;
+	border-collapse:separate;
+	border-spacing: 0;
+  }
+  
+  table th:first-child{
+	border-radius: 5px 0 0 0;
+  }
+  
+  table th:last-child{
+	border-radius: 0 5px 0 0;
+	border-right: 1px solid #ffdd11;
+  }
+  
+  table th{
+	text-align: center;
+	color:black;
+	background: linear-gradient(#ffff00,#ffdd11);
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+	width: 25%;
+	padding: 10px 0;
+  }
+  
+  table td{
+	text-align: center;
+	border-left: 1px solid #a8b7c5;
+	border-bottom: 1px solid #a8b7c5;
+	border-top:none;
+	box-shadow: 0px -3px 5px 1px #eee inset;
+	width: 25%;
+	padding: 10px 0;
+  }
+  
+  table td:last-child{
+	border-right: 1px solid #a8b7c5;
+  }
+  
+  table tr:last-child td:first-child {
+	border-radius: 0 0 0 5px;
+  }
+  
+  table tr:last-child td:last-child {
+	border-radius: 0 0 5px 0;
+  }
