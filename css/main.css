@@ -165,3 +165,12 @@ table{
   table tr:last-child td:last-child {
 	border-radius: 0 0 5px 0;
   }
+
+  @media screen and (max-width: 767px) {
+	.A{
+		display: block;
+	}
+	.item{
+		width: auto;
+	}
+}
